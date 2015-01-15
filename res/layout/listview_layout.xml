@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        
+        android:layout_height="110px" >
+      
+         <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:textSize="25dp"
+        android:layout_height="70px"
+        android:text="TextView" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+         android:textSize="22dp"
+        android:layout_height="40px"
+        android:text="TextView" />
+         
+ </TableLayout>
+    
+
+    

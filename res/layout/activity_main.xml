@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="@drawable/ev2" >
+     <LinearLayout
+           android:id="@+id/linear3"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:orientation="vertical" >
+
+         <ImageView
+             android:id="@+id/img12"
+             android:layout_width="wrap_content"
+             android:layout_height="80dp"
+             android:layout_marginTop="0dp"
+             android:layout_marginLeft="12dp"
+             android:paddingRight="28dp"
+             android:src="@drawable/logo1" 
+             />
+
+        
+
+         <LinearLayout
+           android:id="@+id/linear4"
+           android:layout_width="fill_parent"
+           android:layout_height="50dp"
+           android:orientation="horizontal" >
+            <TextView
+             android:id="@+id/textView91"
+             android:layout_width="fill_parent"
+             android:gravity="center"
+             android:textSize="20dp"
+             
+             android:layout_weight="2"
+             android:layout_height="50dp"
+             android:text="Voice Dialling" />
+
+         <TextView
+             android:id="@+id/textView92"
+             android:layout_width="fill_parent"
+             android:layout_weight="2"
+             android:layout_height="50dp"
+              android:gravity="center"
+               android:textSize="20dp"
+             
+             
+             android:text="Voice Search" />
+           
+           </LinearLayout>
+    
+       <LinearLayout
+           android:id="@+id/linear1"
+           android:layout_width="fill_parent"
+           android:layout_height="150dp"
+           android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/button1"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+             
+            
+            android:layout_weight="2"
+            android:src="@drawable/dialling"/>
+
+        <ImageView
+            android:id="@+id/button2"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_weight="2"
+            android:src="@drawable/download2"/>
+       </LinearLayout>
+        
+        
+       
+         <LinearLayout
+           android:id="@+id/linear5"
+           android:layout_width="fill_parent"
+           android:layout_height="50dp"
+           android:orientation="horizontal" >
+            <TextView
+             android:id="@+id/textView93"
+             android:layout_width="fill_parent"
+             android:gravity="center"
+             android:textSize="20dp"
+             
+             android:layout_weight="2"
+             android:layout_height="50dp"
+             android:text="Voice Sms" />
+
+         <TextView
+             android:id="@+id/textView94"
+             android:layout_width="fill_parent"
+             android:layout_weight="2"
+             android:layout_height="50dp"
+              android:gravity="center"
+               android:textSize="20dp"
+             
+             
+             android:text="About us" />
+           
+           </LinearLayout>
+          
+
+
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+         android:id="@+id/linear2" >
+
+        <ImageView
+            android:id="@+id/button11"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="14dp"
+            android:layout_weight="2"
+            android:src="@drawable/sms" />
+
+        <ImageView
+            android:id="@+id/button13"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="32dp"
+            android:layout_weight="2"
+            android:src="@drawable/about" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+    
+
+     
+   
+</RelativeLayout>
